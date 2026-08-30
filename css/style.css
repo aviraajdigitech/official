@@ -238,7 +238,7 @@ body {
   padding: 0 1.5rem;
 }
 
-/* Brand Logo with 3D Monogram & Correct Double-A */
+/* Brand Logo */
 .brand-logo {
   display: flex;
   align-items: center;
@@ -879,7 +879,7 @@ body {
   50% { transform: translateY(-12px); }
 }
 
-/* REAL PROJECT SHOWCASE CARDS */
+/* REAL PROJECT SHOWCASE CARDS (Full Phone View, No Crop) */
 .showcase-grid-real {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -905,24 +905,29 @@ body {
 
 .project-img-wrapper {
   width: 100%;
-  height: 280px;
+  height: 420px;
   background: #0B0F19;
   position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1.5rem;
 }
 
 .project-img-wrapper img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
   height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s ease;
+  object-fit: contain;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  transition: transform 0.4s ease;
 }
 
 .project-real-card:hover .project-img-wrapper img {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .project-real-body {
@@ -1295,6 +1300,7 @@ body {
   .hero-title { font-size: 2.2rem; }
   .section-title { font-size: 2rem; }
   .page-hero-title { font-size: 2rem; }
+  .project-img-wrapper { height: 320px; }
   
   .mobile-toggle { display: block; }
   

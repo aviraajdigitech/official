@@ -178,6 +178,21 @@ body {
   color: var(--fintech-green);
 }
 
+.badge-playstore-live {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.85rem;
+  background: rgba(2, 132, 199, 0.1);
+  border: 1px solid rgba(2, 132, 199, 0.3);
+  color: var(--tech-blue);
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
 .section-title {
   font-family: var(--font-heading);
   font-size: 2.6rem;
@@ -509,6 +524,56 @@ body {
 .btn-primary-3d:hover {
   transform: translateY(-3px) scale(1.02);
   box-shadow: 0 12px 35px rgba(212, 175, 55, 0.5);
+}
+
+/* Professional Google Play Store Button */
+.btn-playstore {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.55rem 1.35rem;
+  background: #0F172A;
+  color: #FFFFFF;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  transition: var(--transition);
+}
+
+.btn-playstore:hover {
+  background: #1E293B;
+  transform: translateY(-2px);
+  border-color: var(--primary-gold);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  color: #FFFFFF;
+}
+
+.btn-playstore i {
+  font-size: 1.4rem;
+  color: #38BDF8;
+}
+
+.btn-playstore-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  text-align: left;
+}
+
+.btn-playstore-text .small {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #94A3B8;
+  text-transform: uppercase;
+}
+
+.btn-playstore-text .big {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #FFFFFF;
 }
 
 .btn-whatsapp-hero {
@@ -1300,7 +1365,7 @@ body {
   .hero-title { font-size: 2.2rem; }
   .section-title { font-size: 2rem; }
   .page-hero-title { font-size: 2rem; }
-  .project-img-wrapper { height: 320px; }
+  .project-img-wrapper { height: 340px; }
   
   .mobile-toggle { display: block; }
   

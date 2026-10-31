@@ -1,0 +1,10 @@
+# Google AdMob app-ads.txt for Aviraaj Digitech
+# Domain: aviraajdigitech.com
+# Format: <Field #1>, <Field #2>, <Field #3>, <Field #4>
+# Field 1: Domain name of the advertising system (always google.com for AdMob)
+# Field 2: Exchange Publisher ID (pub-xxxxxxxxxxxxxxxx)
+# Field 3: Type of Relationship (DIRECT)
+# Field 4: Certification Authority ID (always f08c47fec0942fa0 for Google AdMob)
+
+# TODO: Replace the pub-id below with your new AdMob Publisher ID:
+google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

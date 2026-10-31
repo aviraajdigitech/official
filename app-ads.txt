@@ -1,4 +1,8 @@
 # Google AdMob app-ads.txt for Aviraaj Digitech
 # Domain: aviraajdigitech.com
-# Format: <Field #1>, <Field #2>, <Field #3>, <Field #4>
+
+# Account 1: BB Sensex (Paper Trading)
 google.com, pub-6918575025811318, DIRECT, f08c47fec0942fa0
+
+# Account 2: Aviraaj Digitech Primary Publisher
+google.com, pub-5614208601638283, DIRECT, f08c47fec0942fa0
